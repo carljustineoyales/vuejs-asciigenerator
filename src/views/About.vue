@@ -21,8 +21,14 @@
           <p>*This is a generated ascii art</p>
           <br /><br />
           <p>
-            This app is created using
-            <a href="https://vuejs.org/" target="_blank">Vuejs</a> and
+            This app is created by
+            <a
+              href="  https://github.com/carljustineoyales"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Cj Oyales</a
+            >
+            using <a href="https://vuejs.org/" target="_blank">Vuejs</a> and
             <a href="https://www.npmjs.com/package/figlet" target="_blank"
               >Figlet</a
             >
