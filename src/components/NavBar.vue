@@ -6,19 +6,15 @@
       </div>
       <ul class="nav__navList">
         <li class="nav__navItem">
-          <router-link to="/vuejs-asciigenerator/" class="routerLink"
-            >Home</router-link
-          >
+          <router-link to="/vuejs-asciigenerator/" class="routerLink">Home</router-link>
         </li>
         <li class="nav__navItem">
-          <router-link to="/vuejs-asciigenerator/about" class="routerLink"
-            >About</router-link
-          >
+          <router-link to="/vuejs-asciigenerator/about" class="routerLink">About</router-link>
         </li>
         <li class="nav__navItem">
-          <a href="#" class="sourceLink"
-            ><i class="fa fa-github-alt" aria-hidden="true"></i
-          ></a>
+          <a href="#" class="sourceLink">
+            <i class="fa fa-github-alt" aria-hidden="true"></i>
+          </a>
         </li>
       </ul>
     </nav>
