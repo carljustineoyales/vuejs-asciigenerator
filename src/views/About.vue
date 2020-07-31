@@ -29,7 +29,16 @@
           </p>
           <p>Will add more fonts in the future update</p>
           <br /><br />
-
+          <p>
+            Deployed using
+            <a
+              href="https://www.npmjs.com/package/vue-gh-pages"
+              target="_blank"
+              rel="noopener noreferrer"
+              >vue-gh-pages</a
+            >
+          </p>
+          <br /><br />
           <p>
             <a
               href="https://github.com/patorjk/figlet.js/tree/master/importable-fonts"

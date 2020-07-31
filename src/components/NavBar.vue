@@ -2,17 +2,29 @@
   <header>
     <nav class="nav">
       <div class="nav__appName">
-        <h1>ASCII Art Generator</h1>
+        <h1>
+          <router-link to="/vuejs-asciigenerator" class="routerLink"
+            >ASCII ART GENERATOR</router-link
+          >
+        </h1>
       </div>
       <ul class="nav__navList">
         <li class="nav__navItem">
-          <router-link to="/vuejs-asciigenerator/" class="routerLink">Home</router-link>
+          <router-link to="/vuejs-asciigenerator" class="routerLink"
+            >Home</router-link
+          >
         </li>
         <li class="nav__navItem">
-          <router-link to="/vuejs-asciigenerator/about" class="routerLink">About</router-link>
+          <router-link to="/vuejs-asciigenerator/about" class="routerLink"
+            >About</router-link
+          >
         </li>
         <li class="nav__navItem">
-          <a href="#" class="sourceLink">
+          <a
+            href="https://github.com/carljustineoyales/vuejs-asciigenerator"
+            target="_blank"
+            class="sourceLink"
+          >
             <i class="fa fa-github-alt" aria-hidden="true"></i>
           </a>
         </li>
@@ -39,6 +51,12 @@ export default {
   top: 0;
   &__appName {
     flex: 1;
+    h1 {
+      a {
+        color: #fff;
+        text-decoration: none;
+      }
+    }
   }
 
   &__navList {
